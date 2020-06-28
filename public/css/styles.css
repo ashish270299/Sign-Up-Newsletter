@@ -1,5 +1,5 @@
-html,
-body {
+html,body
+ {
 
   height: 100%;
   background-image: url("../rafale2.jpg");
@@ -8,15 +8,38 @@ body {
   background-position: center;
 }
 
-body {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-top: 150px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
 
+#header{
+  width:100%;
+  text-align: center;
+  padding: 20px 100px;
+
+}
+.header1{
+  width: 100%;
+   margin: auto;
+   opacity: 0.8;
+}
+
+#container1{
+  height: auto;
+}
+
+#containers{
+width: 50%;
+float: left;
+height: 430px ;
+position: relative;
+padding-top: 100px;
+padding-left:150px;
+
+}
+
+.footer{
+  width:100%;
+  bottom: 10px;
+  text-align: center;
+  position: absolute;
 }
 
 .form-signin {
@@ -28,6 +51,7 @@ body {
 }
 .form-signin .checkbox {
   font-weight: 400;
+  text-align: center;
 }
 .form-signin .form-control {
   position: relative;
